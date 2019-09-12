@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TodasPorUma</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+
+    <string-array name="numbers">
+        <item>Lugares Perigoso</item>
+        <item>Lugares de Atenção</item>
+        <item>Lugares Seguros</item>
+
+    </string-array>
+</resources>
