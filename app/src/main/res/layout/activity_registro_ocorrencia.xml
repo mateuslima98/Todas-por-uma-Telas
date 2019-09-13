@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffefe8"
     tools:context=".RegistroOcorrencia">
 
     <LinearLayout
@@ -15,6 +16,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#ff6070"
             android:gravity="center"
             android:text="TODAS POR UMA"
             android:textColor="@android:color/white"
@@ -119,11 +121,14 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="24dp"
+        android:background="#ff6070"
         android:text="Salvar"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.928"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="15dp"/>
 
 
     <TextView

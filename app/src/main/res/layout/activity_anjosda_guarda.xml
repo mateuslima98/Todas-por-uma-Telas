@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffefe8"
     tools:context=".AnjosdaGuarda">
 
     <LinearLayout
@@ -11,9 +12,11 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@color/colorAccent">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#ff6070"
             android:gravity="center"
             android:text="Todas por Uma"
             android:textColor="@android:color/white"
@@ -170,19 +173,34 @@
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="#ff6070"
         android:text="Salvar"
-        app:layout_constraintTop_toBottomOf="@+id/editText18"
-        tools:layout_editor_absoluteX="52dp" />
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/button6"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="666dp" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#ff6070"
         android:text="Adicionar contato"
-        app:layout_constraintTop_toBottomOf="@+id/editText19"
-        tools:layout_editor_absoluteX="228dp" />
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText19" />
 
 </android.support.constraint.ConstraintLayout>

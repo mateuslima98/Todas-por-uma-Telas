@@ -4,15 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffefe8"
     tools:context=".Cadastro">
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@color/colorAccent">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#ff6070"
             android:gravity="center"
             android:text="Cadastro - Todas por Uma"
             android:textColor="@android:color/white"
@@ -20,8 +24,6 @@
             android:textColorLink="#007E5555"
             android:textSize="30sp" />
     </LinearLayout>
-
-
 
 
     <EditText
@@ -146,7 +148,9 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:background="#ff6070"
         android:text="Cadastrar"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.889"
         app:layout_constraintStart_toStartOf="parent"
